@@ -4,6 +4,8 @@
 
 Since we need to be working on Ubuntu 16.04, this means we should run (for the time being) an EC2 instance running Ubuntu 16.04. This falls within the free tier, so that's a nice perk.
 
+***NOTE***: Be sure to run `source ~/.bash_profile` and `source ~/.profile` when SSH-ing back into an EC2 instance
+
 ### Getting Connected
 1. Spin up your EC2 instance, download the new key if you need to
 2. Navigate to that new key, run `chmod 400 <filename>.pem` to make it private
