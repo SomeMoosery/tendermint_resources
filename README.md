@@ -15,7 +15,7 @@ Since we need to be working on Ubuntu 16.04, this means we should run (for the t
 Install and set up Go:
 1. `curl -O https://storage.googleapis.com/golang/go1.13.linux-amd64.tar.gz` - you need to use Go v1.13
 2. `sha256sum go1.13.linux-amd64.tar.gz` - this just verifies the `.tar` file
-3. `tar -xvf go1.12.9.linux-amd64.tar.gz`
+3. `tar -xvf go1.13.linux-amd64.tar.gz`
 4. `chown -R root:root ./go` - run with sudo if not superuser
 5. `mv go /usr/local` - run with sudo if not superuser
 6. `export GOPATH=$HOME/go`
