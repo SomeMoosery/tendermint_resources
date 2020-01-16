@@ -34,9 +34,10 @@ Set up your environment:
 2. `cd $GOPATH/src/github.com/tendermint`
 3. `git clone https://github.com/tendermint/tendermint.git`
 4. `cd tendermint`
-5. `make tools`
-6. `make install`
-7. `make build`
+5. `apt install make`
+6. `make tools`
+7. `make install`
+8. `make build`
 
 Test by running `tendermint version` 
 
